@@ -16,13 +16,16 @@ import {
   Volume1,
 } from "lucide-react";
 
+import AddIcon from "@mui/icons-material/Add";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 function App() {
   return (
     <>
       <div className="h-screen l">
         <div className="flex flex-1">
-          <aside className="w-72 bg-zinc-950 p-6">
-            <nav className="space-y-5">
+          <aside className="w-72 p-3">
+            <nav className="space-y-5 bg-white/5 p-3 rounded-lg mt-2">
               <a
                 href="#"
                 className="flex items-center gap-3 text-sm font-semibold text-zinc-200"
@@ -37,16 +40,34 @@ function App() {
                 <Search />
                 Search
               </a>
-              <a
-                href="#"
-                className="flex items-center gap-3 text-sm font-semibold text-zinc-200"
-              >
-                <Library />
-                Your Library
-              </a>
             </nav>
 
-            <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <nav className="mt-3 bg-white/5 p-3 flex flex-col gap-3 rounded-lg">
+              <div className="flex gap-16">
+                <a
+                  href="#"
+                  className="flex items-center gap-3 text-sm font-semibold text-zinc-200"
+                >
+                  <Library />
+                  Your Library
+                </a>
+
+                <div className="">
+                  <AddIcon />
+                  <ArrowForwardIcon />
+                </div>
+              </div>
+              <div className="flex gap-2 text-sm">
+                <a href="" className="bg-zinc-800 p-3 rounded-full">
+                  Playlists
+                </a>
+                <a href="" className="bg-zinc-800 p-3 rounded-full">
+                  Posdcasts
+                </a>
+                <a href="" className="bg-zinc-800 p-3 rounded-full">
+                  Artistis
+                </a>
+              </div>
               <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
                 Morada
               </a>
@@ -64,7 +85,7 @@ function App() {
               </a>
             </nav>
           </aside>
-          <main className="flex-1 p-6">
+          <main className="flex-1 p-6 bg-white/5 rounded-lg my-5">
             <div className="flex items-center gap-4">
               <button className="rounded-full bg-black/40 p-1">
                 <ChevronLeft />
@@ -210,12 +231,12 @@ function App() {
           </main>
         </div>
 
-        <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between fixed bottom-0 left-0 w-full">
+        <footer className="bg-black  px-6 py-4 flex items-center justify-between fixed bottom-0 left-0 w-full">
           <div className="flex items-center gap-3">
-            <img src="/coldplay.jpeg" alt="coldplay" className="w-14 h-14" />
+            <img src="/morada.jpg" alt="coldplay" className="w-14 h-14" />
             <div className="flex flex-col">
-              <strong className="font-normal">Yellow</strong>
-              <span className="text-xs text-zinc-400">Coldplay</span>
+              <strong className="font-normal">É tudo sobre voce</strong>
+              <span className="text-xs text-zinc-400">Morada</span>
             </div>
           </div>
 
