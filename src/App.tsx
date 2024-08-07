@@ -18,6 +18,7 @@ import {
 
 import AddIcon from "@mui/icons-material/Add";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import PushPinIcon from "@mui/icons-material/PushPin";
 
 function App() {
   return (
@@ -58,31 +59,95 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-2 text-sm">
-                <a href="" className="bg-zinc-800 p-3 rounded-full">
+                <a
+                  href=""
+                  className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700"
+                >
                   Playlists
                 </a>
-                <a href="" className="bg-zinc-800 p-3 rounded-full">
+                <a
+                  href=""
+                  className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700"
+                >
                   Posdcasts
                 </a>
-                <a href="" className="bg-zinc-800 p-3 rounded-full">
-                  Artistis
+                <a
+                  href=""
+                  className="bg-zinc-800 p-3 rounded-full hover:bg-zinc-700"
+                >
+                  Artists
                 </a>
               </div>
-              <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
-                Morada
-              </a>
-              <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
-                Catedral
-              </a>
-              <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
-                Chill Mix
-              </a>
-              <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
-                Marombar
-              </a>
-              <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100">
-                Marcos Almeida
-              </a>
+              <div className="flex items-center gap-3 my-1">
+                <img
+                  src="/liked.jpg"
+                  alt="coldplay"
+                  className="w-14 h-14 rounded-md"
+                />
+                <div className="flex flex-col">
+                  <strong className="font-normal">Liked Songs</strong>
+                  <div className="flex items-center space-x-1">
+                    <a className="text-green-500 rotate-45">
+                      <PushPinIcon />
+                    </a>
+                    <span className="text-sm text-zinc-400">
+                      Playlist - 10 songs
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 my-1">
+                <img
+                  src="/oasis.jpg"
+                  alt="coldplay"
+                  className="w-14 h-14 rounded-md"
+                />
+                <div className="flex flex-col">
+                  <strong className="font-normal">This is Oasis</strong>
+                  <span className="text-sm text-zinc-400">
+                    Playlist - pedroaguiarbs
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 my-1">
+                <img
+                  src="/morada.jpg"
+                  alt="coldplay"
+                  className="w-14 h-14 rounded-md"
+                />
+                <div className="flex flex-col">
+                  <strong className="font-normal">This is Morada</strong>
+                  <span className="text-sm text-zinc-400">
+                    Playlist - pedroaguiarbs
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 my-1">
+                <img
+                  src="/game.jpeg"
+                  alt="coldplay"
+                  className="w-14 h-14 rounded-md"
+                />
+                <div className="flex flex-col">
+                  <strong className="font-normal">Gaming Chill</strong>
+                  <span className="text-sm text-zinc-400">
+                    Playlist - pedroaguiarbs
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 my-1">
+                <img
+                  src="/gym.jpeg"
+                  alt="coldplay"
+                  className="w-14 h-14 rounded-md"
+                />
+                <div className="flex flex-col">
+                  <strong className="font-normal">Beast Mode</strong>
+                  <span className="text-sm text-zinc-400">
+                    Playlist - pedroaguiarbs
+                  </span>
+                </div>
+              </div>
             </nav>
           </aside>
           <main className="flex-1 p-6 bg-white/5 rounded-lg my-5">
@@ -233,10 +298,14 @@ function App() {
 
         <footer className="bg-black  px-6 py-4 flex items-center justify-between fixed bottom-0 left-0 w-full">
           <div className="flex items-center gap-3">
-            <img src="/morada.jpg" alt="coldplay" className="w-14 h-14" />
+            <img
+              src="/notion.jpeg"
+              alt="coldplay"
+              className="w-14 h-14 rounded-md"
+            />
             <div className="flex flex-col">
-              <strong className="font-normal">É tudo sobre voce</strong>
-              <span className="text-xs text-zinc-400">Morada</span>
+              <strong className="font-normal">Notion</strong>
+              <span className="text-xs text-zinc-400">The Rare Occasions</span>
             </div>
           </div>
 
