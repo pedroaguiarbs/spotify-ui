@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Spotify Web Player UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma recriação da interface do Web Player do Spotify. Foi desenvolvido com foco em replicar a aparência e a experiência do usuário da plataforma original, utilizando tecnologias modernas para garantir uma performance otimizada e uma experiência de desenvolvimento agradável.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- [\*\*Vite](https://vitejs.dev/):\*\* Ferramenta de construção de projeto que oferece uma experiência de desenvolvimento rápida e eficiente.
+- [\*\*React](https://reactjs.org/):\*\* Biblioteca JavaScript para construção de interfaces de usuário.
+- [\*\*TypeScript](https://www.typescriptlang.org/):\*\* Superset de JavaScript que adiciona tipagem estática ao código.
+- [\*\*TailwindCSS](https://tailwindcss.com/):\*\* Framework CSS utilitário para construção de interfaces personalizáveis.
+- [\*\*Material UI](https://mui.com/):\*\* Biblioteca de componentes de interface de usuário, utilizada principalmente para os ícones.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🎨 Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Interface visualmente similar ao Web Player do Spotify.
+- Navegação entre diferentes seções, como Home, Search e Library.
+- Controle de reprodução de música (fictício, sem integração com backend).
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🛠️ Instalação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/spotify-web-player-clone.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd spotify-web-player-clone
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+O aplicativo estará disponível em `http://localhost:3000`.
+
+## 📸 Screenshots
+
+_Exemplo da página inicial do clone do Spotify._
+
+## 👨‍💻 Autor
+
+- **Seu Nome** - [GitHub](https://github.com/pedroaguiarbs) | [LinkedIn](https://www.linkedin.com/in/pedroaguiarbs/)
