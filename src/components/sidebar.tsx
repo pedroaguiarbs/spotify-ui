@@ -57,7 +57,6 @@ function Sidebar() {
             Artists
           </a>
         </div>
-        {/* Liked Songs and Playlists */}
         <PlaylistItem
           src="/liked.jpg"
           title="Liked Songs"
